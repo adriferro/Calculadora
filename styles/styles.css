@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calc{
+    border: 1px solid;
+    border-color: grey;
+    width: 334px; 
+    padding: 5px;
+    background-color: black;
+    color: white;
+    position: relative;
+    margin: 0 auto;
+}
+
+.keys{
+    position: absolute;
+}
+
+.kNum{
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(80, 80, 80);
+    color: white;
+    margin-bottom: 3px;
+}
+
+.kNum:hover{
+    background-color: rgb(63, 63, 63);
+}
+
+.kOpe{
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    margin-bottom: 3px;
+}
+
+.kOpe:hover{
+    background-color: rgb(80, 80, 80);
+}
+
+#equal{
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(106,186,252);
+    color: black;
+}
+
+#equal:hover{
+    background-color:rgb(97,170,229);
+}
+
+.screen{
+    height: 80px;
+    margin: 20px 0 0 0;
+    font-size: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    max-width: 100%;
+}
+
+.operation{
+    width: 310px;
+    height: 50px;
+    font-size: 25px;
+    font-family: Arial;
+    text-align: right;
+    color: rgb(174, 172, 172);
+    white-space: nowrap; 
+    overflow-x: auto;
+    overflow-y: hidden; 
+    margin: 0 auto;
+}
+
+#del{
+    font-size: 1px;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+#del:hover{
+    background-color: rgb(80, 80, 80);
+}
+
+.kSpecial{
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    margin-bottom: 3px;
+}
+.kSpecial:hover{
+    background-color: rgb(80, 80, 80);
+}
